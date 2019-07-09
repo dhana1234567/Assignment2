@@ -1,0 +1,216 @@
+<html>
+<head>
+  <title>Facebook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+ .fbheader{
+ 	height:84px;
+ 	background-color:#3b5998;
+ 	min-width:980px;
+ 	color:white;
+ }
+ .form-controlsetting{
+ 	height:25px!important;
+
+ }
+  </style>
+  <script>
+  /*function login(){
+    var name=document.getElementById("name").value;  
+	var password=document.getElementById("password").value;  
+      if (name==null || name==""){  
+       alert("Name can't be blank");  
+       return false;  
+     }else if(password.length<6){  
+       alert("Password must be at least 6 characters long.");  
+       return false;  
+     } else if(name == "raja" && password == "1234567"){
+     	 document.getElementById("myButton").onclick = function () {
+        location.href = "file:///E:/fb.html";
+       };
+     }else{
+     	alert("Your user name or password is wrong...!");
+     	return false;
+  	   
+	 }
+  }  
+  */
+</script>  
+</head>
+<body>
+<!--header start-->
+<header>
+<nav class="fbheader" style="padding: 0px 184px 0px 150px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-7" style="margin-top:29px">
+<img src="fb1.jpg" height="50" width="185">
+</div>
+<div class="col-lg-5" style="margin-top: 1px;">
+<div class="row">
+<div class="col-lg-5">
+	<label> Email or Phone </label>
+</div>
+<div class="col-lg-5">
+	<label> Password </label>
+</div>
+</div>
+<form action="fb.html" method="post" onsubmit="login()">
+<div class="row">
+<div class="col-lg-5">
+	<input type="text" name="name" id = "name" class="form-control form-controlsetting" required>
+</div>
+<div class="col-lg-5">
+	<input type="password" name="password"  id = "password" class="form-control form-controlsetting" required>
+</div>
+<div class="col-lg-2">
+	<input type="submit" name="" class="btn btn-info text-white form-controlsetting" style="line-height: 0px;"
+	  id="myButton" value="Login" onclick="login()">
+</div>
+</div>
+</form>
+<div class="row">
+<div class="col-lg-5">
+	
+</div>
+<!-- <div class="col-lg-5">
+	<a href="#" style="color:9cb4d8"> Forgotten account? </a>
+</div> -->
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<!--header end-->
+<!--section start-->
+<section style="background-color: #f3f4f9; height:620px; padding: 30px 154px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+	<h4>Facebook helps you connect and share with the people in your life.</h4>
+	<br>
+	<img src="pic.png">
+</div>
+<div class="col-lg-5" style="margin-left: 65px!important">
+	<h3>Create an account</h3><br>
+	<div class="row">
+       <div class="col-lg-6 form-group">
+           <input type="text" name="" class="form-control" placeholder="First name">
+       </div>
+       <div class="col-lg-6 form-group">
+           <input type="text" name="" class="form-control" placeholder="Last name">
+       </div>
+	</div>
+	<div class="row">
+       <div class="col-lg-12 form-group">
+           <input type="text" name="" class="form-control" placeholder="Email address">
+       </div>
+	</div>
+	<div class="row">
+       <div class="col-lg-12 form-group">
+           <input type="text" name="" class="form-control" placeholder="New password">
+       </div>
+	</div>
+	<div class="row">
+       <div class="col-lg-4">
+           <h5>Birthday</h5>
+       </div>
+       <div class="col-lg-8">
+           
+       </div>
+	</div>
+	<!--row start-->
+	<div class="row">
+       <div class="col-lg-6">
+           <div class="row">
+           	<div class="col-lg-3">
+               <select>
+               	<option> 01 </option>
+               	<option> 02 </option>
+               	<option> 03 </option>
+               </select>
+           </div>
+           <div class="col-lg-5">
+               <select>
+               	<option> January </option>
+               	<option> February </option>
+               	<option> March </option>
+               </select>
+           </div>
+           <div class="col-lg-3">
+               <select>
+               	<option> 1993 </option>
+               	<option> 1994 </option>
+               	<option> 1995 </option>
+               </select>
+           </div>
+           </div>
+       </div>
+       
+	</div>
+	<!--row end-->
+	<br>
+    <!--row start-->
+	<div class="row">
+       <div class="col-lg-9">
+       	<label class="radio-inline">
+            <input type="radio" name="fbradio"> Male
+       	</label>
+       	<label class="radio-inline">
+            <input type="radio" name="fbradio"> Female
+       	</label>
+       </div>
+	</div>
+	<!--row end--><br>
+	<!--row start-->
+	<div class="row">
+       <div class="col-lg-12">
+       	<a href="#" style="color: #777;"> By clicking Create Account, you agree to <span style="color:blue;">Terms</span> and <span style="color:blue;">Confirm</span> that you have read our Data Policy, including our Cookie Use Policy. </a>
+       </div>
+	</div>
+	<!--row end-->
+	<br>
+	<!--row start-->
+     <div class="row">
+     	 <div class="col-lg-8">
+             <button class="btn btn-success"> Create an account </button>
+         </div>
+     </div>
+	<!--row end-->
+</div>
+</div>
+</div>
+</section>
+<!--section end-->
+<!--foter start-->
+<footer style="padding:10px 0px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+   <ul class="list-unstyled">
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Sign up </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Login </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Messenger </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Facebook lite </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Mobile </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Find friends </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Pages </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> People </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Games </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Locations </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Celebrities </li>
+	  <li class="float-left" style="padding:0px 5px; color:#365899"> Market place </li>
+   </ul>
+</div>
+</div>
+</div>
+</footer>
+<!--footer end-->
+</body>
+</html>

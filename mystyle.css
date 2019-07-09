@@ -1,0 +1,21 @@
+   textarea{
+
+      resize: none;
+    }
+
+  .center {
+   margin: auto;
+   display: block;
+   padding: 10px;
+}
+
+.bgcolor{
+
+      background-color:#ad0909;
+
+    }
+
+    a {
+
+      text-decoration: none;
+    }

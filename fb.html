@@ -1,0 +1,375 @@
+<html>
+<head>
+  <title>Facebook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+ .fbheader{
+ 	height:60px;
+ 	background-color:#3b5998;
+ 	min-width:980px;
+ 	color:white;
+  padding: 3px;
+
+ }
+ .search-container{
+  margin-left:170px;
+  margin-top: -40px;
+  padding: 3px;
+ }
+ .search-container button{
+    float: none;
+   
+    margin: 0;
+    padding: 5px;
+  }
+  nav ul li{
+   list-style-type:none;
+   display: inline-block;
+  line-height: 80px;
+  margin-top:-20px;
+
+  }
+  nav ul{
+    float:right;
+    margin-right:30px;
+  }
+  nav ul li a{
+   text-decoration: none;
+   color:white;
+   padding:35px;
+  }
+  a:hover{
+   color:white;
+  }
+  nav li{
+    border-left: 1px solid black;
+    
+  }
+  nav li{
+    border-right:1px solid purple;
+  }
+  img{
+    margin-top:-25px;
+  }
+  .fb-profile-block {
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+.cover-container{
+    background: black;
+    height:180px!important;
+    background: radial-gradient(at bottom, black);
+}
+.fb-profile-block-thumb{
+  display: block;
+  height: 315px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.fb-profile-block-menu {
+  border: 1px solid #d3d6db;
+  border-radius: 0 0 3px 3px;
+}
+.profile-img a{
+    bottom: 15px;
+    box-shadow: none;
+  display: block;
+  left: 15px;
+  padding:1px;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+ 
+  z-index:9;
+}
+.profile-img img {
+  background-color: #fff;
+  border-radius:1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+  height:158px;
+  padding: 5px;
+  width:158px;
+}
+.profile-name {
+  bottom: 60px;
+  left: 200px;
+  position: absolute;
+}
+.profile-name h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 275px;
+  position: relative;
+  text-transform: uppercase;
+}
+.fb-profile-block-menu{
+  height: 44px;
+  position: relative;
+  width:100%;
+  overflow:hidden;
+ }
+.block-menu {
+  clear: right;
+  padding-left: 205px;
+}
+.block-menu ul{
+  margin:0;
+  padding:0;
+}
+.block-menu ul li{
+  display:inline-block;
+}
+.block-menu ul li a {
+  border-right: 1px solid #e9eaed;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  height: 42px;
+  line-height: 3.0;
+  padding: 0 17px;
+  position: relative;
+  vertical-align: middle;
+  white-space: nowrap;
+  color:#4b4f56;
+  text-transform:capitalize;
+}
+.block-menu ul li:first-child a{
+  border-left: 1px solid #e9eaed;
+}
+/*    
+ .headersec{
+               background-color: #3b5998;
+                color: white;
+                height: 45px;
+               }
+               ul li{
+       list-style-type: none;
+       display: inline-block;
+       line-height: 80px;
+       margin-top: -10px;
+     }
+      ul li{
+        float:left;
+        margin-right: 20px;
+     }
+     ul li a{
+      text-decoration: none;
+      color:white;
+      padding: 10px;
+
+     }
+     a:hover{
+      color:white;
+     }
+     
+      .ww{
+          margin-top: 5px;
+      } 
+*/
+ .color{
+  color:blue;
+ }
+  </style>
+</head>
+<body>
+<form action="fb.html" method="post">
+<!--header start-->
+<header>
+<nav class="fbheader" style="padding: 0px 184px 0px 150px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-5" style="margin-top:29px">
+<img src="fb1.jpg" height="50" width="165">
+<div class="search-container">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+<div class="col-lg-7" style="margin-top: 1px;">
+<ul>
+<li><a href=""> Home </a></li>
+<li><a href="fb.html"> Profile </a></li>
+<li><a href="activitylog.html"> Activity blog </a></li>
+<li><a href="fbmain.html"> Logout </a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<!-- <header>
+
+                <nav class="headersec" style="padding:0px 184px 0px 150px;">
+                   
+    
+                            <div class="row">
+                        
+                             <div class="col-lg-7" style="margin-top: 0px;">
+                                 <img src="ff.jpg" height="45" width="45">
+                                 <input type="text" style="width:320px;" class="ww">
+                             </div>
+                             <ul>
+                                <li><a href="home.html">Suman</a></li>
+                                <li><a href="profile.html">Home</a></li>
+                                <li><a href="chat.html">Activity Log</a> </li>
+                                
+                                <li> <button class="btn btn-primary btn-sm">Logout</button></li>
+                            </ul>
+                            
+                            </div>
+                           </nav>
+    
+            </header> -->
+<!--header end-->
+<!--section start-->
+<section>
+
+<div class="container">
+<div class="row">
+
+ <div class="col-lg-12">
+   <div class="fb-profile-block">
+                <div class="fb-profile-block-thumb cover-container"></div>
+                <div class="profile-img">
+                    <a href="#">
+                        <img src="me.jpg" alt="" title="">        
+                    </a>
+                </div>
+                <div class="profile-name">
+                    <h2>Dhanaragavendran</h2>
+                </div>
+                
+                <div class="fb-profile-block-menu">
+                    <div class="block-menu">
+                        <ul>
+                            <li><a href="#"><i class='fab fa-wpforms' style='font-size:14px'></i> Timeline</a></li>
+                            <li><a href="#"><i class='fas fa-user' style='font-size:14px'></i> About</a></li>
+                            <li><a href="#"><i class='fas fa-users' style='font-size:14px'></i> Friends&nbsp;<span class="badge">112</span></a></li>
+                            <li><a href="#"><i class='fas fa-photo' style='font-size:16px'></i> Photos</a></li>
+                            <li><a href="#">More...</a></li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div> <br>
+            <div class="row">
+               <div class="col-md-4">
+                 <div class="panel-group">
+                     <div class="panel panel-default">
+                         <div class="panel-heading"><i class='fas fa-photo' style='font-size:18px'></i> Photos</div>
+                         <div class="panel-body"><br>
+                          <img src="me.jpg" height="150" width="100">
+                          <img src="me1.jpg" height="150" width="100">&nbsp;<img src="me2.jpg" height="150" width="100">
+                         </div>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-md-8">
+                 <div class="panel-group">
+                     <div class="panel panel-default">
+                         <div class="panel-heading"><i class='fas fa-pen' style='font-size:14px'></i> Creaste post / <i class='fas fa-camera' style='font-size:14px'></i> Photo & video </div>
+                         <div class="panel-body"><br><img src="me.jpg" height="100">&nbsp;What's on your mind ?</div>
+                         <div class="panel-footer"><button class="btn btn-default"><i class='fas fa-user' style='font-size:14px'></i> Tag photo</button>&nbsp;<button class="btn btn-default"><i class='fas fa-video' style='font-size:14px'></i> Live video</button>&nbsp;<button class="btn btn-default"><i class='fas fa-forward' style='font-size:14px'></i> Post</button></div>
+                     </div>
+                 </div>
+               </div>
+            </div>
+            <form action="" method="post">
+            <div class="row">
+               <div class="col-md-4">
+                 <div class="panel-group">
+                     <div class="panel panel-default">
+                         <div class="panel-heading"><i class='fas fa-globe' style='font-size:18px'></i> Intro<br><br>
+                          <center>
+                           Add a short bio to tell people more about yourself.</center><br>
+                           <center><i class='fas fa-wallet' style='font-size:18px'></i></center><br>
+                             <center><a href="#">Add bio</a></center>
+                         </div>
+                         <div class="panel-body"><br>
+                            <i class='fa fa-graduation-cap' style='font-size:18px'></i>&nbsp;Works at <span class="color" id="text1">Bharat matric hr.cec.school</span><br><br>
+                             <i class='fa fa-graduation-cap' style='font-size:18px'></i>&nbsp;Works place <span class="color" id="text2">Lalbhag</span><br><br>
+                              <i class='fa fa-graduation-cap' style='font-size:18px'></i>&nbsp;Native place at <span class="color" id="text3">Whitefield</span><br><br>
+                              <i class='fa fa-graduation-cap' style='font-size:18px'></i>&nbsp;Role in <span class="color" id="text4">Java</span><br><br>
+                                 <i class='fa fa-graduation-cap' style='font-size:18px'></i>&nbsp;My qualication <span class="color" id="text5">MBA</span><br><br>
+                              <center><button class="btn btn-info"><a href="profileedit.html">Edit details</a></button></center>
+                         </div>
+                         <div class="panel-footer">
+                          <center><i class='fa fa-star' style='font-size:18px'></i></center>
+                          <center>Showcase what's important to you by adding photos, Pages, groups and more to your featured section on your public profile.</center>
+                         </div>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-md-8">
+                 <div class="panel-group">
+                     <div class="panel panel-default">
+                         <div class="panel-heading"><br><img src="me.jpg" height="40">&nbsp;&nbsp;<font size="3" color="blue">Dhana Ragavendran</font>&nbsp;Update his profile picture</div>
+                         <div class="panel-body"><br>
+                          <img src="me.jpg" height="350" width="100%">
+                          
+                         </div>
+                         <div class="panel-footer">
+                           <i class='fa fa-heart' style='font-size:18px'></i>
+                          &nbsp;<i class='fa fa-smile' style='font-size:18px'></i>
+                           &nbsp;<i class='fa fa-thumbs-up' style='font-size:18px'></i>&nbsp; Suman, Soubhagya and 57 Others
+                        </div>
+                        <hr>
+                        <center>
+                          <i class='fa fa-thumbs-up' style='font-size:18px'></i> Like
+                          &nbsp; &nbsp;<i class='fa fa-mail-forward' style='font-size:18px'></i> Share
+                           &nbsp; &nbsp;<i class='fas fa-wallet' style='font-size:18px'></i> Comment
+                           </center>
+                     </div>
+                 </div>
+               </div>
+            </div>
+          </form>
+            
+ </div>
+<!--  <div class="col-lg-4"></div> -->
+ <!-- <div class="col-lg-2"></div> -->
+ 
+</div>
+</div>
+
+</section>
+
+<script>
+  
+ 
+
+var dhana=localStorage.getItem("x");
+document.getElementById("text1").innerHTML=dhana;
+var raga=localStorage.getItem("y");
+document.getElementById("text2").innerHTML=raga;
+var dhana1=localStorage.getItem("xy");
+document.getElementById("text3").innerHTML=dhana1;
+var raga1=localStorage.getItem("yz");
+document.getElementById("text4").innerHTML=raga1;
+var dhanaraga=localStorage.getItem("zx");
+document.getElementById("text5").innerHTML=dhanaraga;
+
+</script>
+
+<!--section end-->
+<!--foter start-->
+
+<!--footer end-->
+</form>
+</body>
+</html>

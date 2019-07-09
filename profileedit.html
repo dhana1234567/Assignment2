@@ -1,0 +1,468 @@
+<html>
+<head>
+  <title>Facebook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+ .fbheader{
+ 	height:60px;
+ 	background-color:#3b5998;
+ 	min-width:980px;
+ 	color:white;
+  padding: 3px;
+
+ }
+ .search-container{
+  margin-left:170px;
+  margin-top: -40px;
+  padding: 3px;
+ }
+ .search-container button{
+    float: none;
+   
+    margin: 0;
+    padding: 5px;
+  }
+  nav ul li{
+   list-style-type:none;
+   display: inline-block;
+  line-height: 80px;
+  margin-top:-20px;
+
+  }
+  nav ul{
+    float:right;
+    margin-right:30px;
+  }
+  nav ul li a{
+   text-decoration: none;
+   color:white;
+   padding:35px;
+  }
+  a:hover{
+   color:white;
+  }
+  /*nav li{
+    border-left: 1px solid black;
+    
+  }*/
+  nav li{
+    border-right:1px solid purple;
+  }
+  img{
+    margin-top:-25px;
+  }
+  .fb-profile-block {
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+.cover-container{
+    background: black;
+    height:180px!important;
+    background: radial-gradient(at bottom, black);
+}
+.fb-profile-block-thumb{
+  display: block;
+  height: 315px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.fb-profile-block-menu {
+  border: 1px solid #d3d6db;
+  border-radius: 0 0 3px 3px;
+}
+.profile-img a{
+    bottom: 15px;
+    box-shadow: none;
+  display: block;
+  left: 15px;
+  padding:1px;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+ 
+  z-index:9;
+}
+.profile-img img {
+  background-color: #fff;
+  border-radius:1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+  height:158px;
+  padding: 5px;
+  width:158px;
+}
+.profile-name {
+  bottom: 60px;
+  left: 200px;
+  position: absolute;
+}
+.profile-name h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 275px;
+  position: relative;
+  text-transform: uppercase;
+}
+.fb-profile-block-menu{
+  height: 44px;
+  position: relative;
+  width:100%;
+  overflow:hidden;
+ }
+.block-menu {
+  clear: right;
+  padding-left: 205px;
+}
+.block-menu ul{
+  margin:0;
+  padding:0;
+}
+.block-menu ul li{
+  display:inline-block;
+}
+.block-menu ul li a {
+  border-right: 1px solid #e9eaed;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  height: 42px;
+  line-height: 3.0;
+  padding: 0 17px;
+  position: relative;
+  vertical-align: middle;
+  white-space: nowrap;
+  color:#4b4f56;
+  text-transform:capitalize;
+}
+.block-menu ul li:first-child a{
+  border-left: 1px solid #e9eaed;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.btn-primary{
+  float:right;
+  
+}
+.bs-example{
+        margin: 20px;
+    }
+        
+      a{
+        color:white;
+      }    
+  </style>
+</head>
+<body>
+
+<!--header start-->
+<header>
+<nav class="fbheader" style="padding: 0px 184px 0px 150px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-5" style="margin-top:29px">
+<img src="fb1.jpg" height="50" width="165">
+<div class="search-container">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+<div class="col-lg-7" style="margin-top: 1px;">
+<ul>
+<li><a href=""> Home </a></li>
+<li><a href="fb.html"> Profile </a></li>
+<li><a href="activitylog.html"> Activity blog </a></li>
+<li><a href="fbmain.html"> Logout </a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<!--header end-->
+<!--section start-->
+<section>
+<div class="container">
+<div class="row">
+
+ <div class="col-lg-10">
+   <div class="fb-profile-block">
+                <div class="fb-profile-block-thumb cover-container"></div>
+                <div class="profile-img">
+                    <a href="#">
+                        <img src="me.jpg" alt="" title="">        
+                    </a>
+                </div>
+                <div class="profile-name">
+                    <h2>Dhanaragavendran</h2>
+                </div>
+                
+                <div class="fb-profile-block-menu">
+                    <div class="block-menu">
+                        <ul>
+                            <li><a href="#"><i class='fab fa-wpforms' style='font-size:14px'></i> Timeline</a></li>
+                            <li><a href="#"><i class='fas fa-user' style='font-size:14px'></i> About</a></li>
+                            <li><a href="#"><i class='fas fa-users' style='font-size:14px'></i> Friends&nbsp;<span class="badge">112</span></a></li>
+                            <li><a href="#"><i class='fas fa-photo' style='font-size:16px'></i> Photos</a></li>
+                            <li><a href="#">More...</a></li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div> <br>
+       
+            
+ </div>
+<!--  <div class="col-lg-4"></div> -->
+ <!-- <div class="col-lg-2"></div> -->
+ 
+</div>
+<div class="row">
+<div class="col-lg-10">
+  <div class="panel-group">
+                     <div class="panel panel-default">
+                         <div class="panel-heading"><i class='fas fa-user' style='font-size:14px'></i>&nbsp;&nbsp;<strong><font size="3">About</font></strong></div>
+                         <div class="panel-body">
+                          <div class="col-md-3">
+                            <h3>Overview</h3><br>
+                            <h4>Work and Education</h4><br>
+                            <h5>Places you've lived</h5><br> 
+                            <h5>Contact and Basic Info</h5><br>
+                            <h5>Family and Relationships</h5><br>
+                            <h5>Details about you</h5><br>
+                            <h5>Life Events</h5>
+                          </div>
+                          <div class="col-md-1">
+                          <div class="vl"></div></div>
+                          <!-- <div class="col-md-4 well"><br><br>
+                             Company name <br><input type="text"><br>
+                             Position <br><input type="text"><br>
+                             City <br><input type="text"><br>
+                             Description <br><textarea rows="3" cols="25"></textarea><hr>
+                             <center>
+                               <button class="btn btn-primary">Save changes</button>
+                                <button class="btn btn-danger">Cancel</button>
+                             </center>
+
+                          </div> -->
+                          <div class="col-md-4"><br><br>
+                            <font color="blue" size="3">Company name</font><button class="btn btn-primary"> <a href="#myModal" data-toggle="modal">Edit</a></button><hr>
+                            <font color="blue" size="3">Work place</font><button class="btn btn-primary"><a href="#myModal1" data-toggle="modal">Edit</a></button><hr>
+                            <font color="blue" size="3">Native place</font><button class="btn btn-primary"><a href="#myModal2" data-toggle="modal">Edit</a></button><hr>
+                            <font color="blue" size="3">Role</font><button class="btn btn-primary"><a href="#myModal3" data-toggle="modal">Edit</a></button><hr>
+                            <font color="blue" size="3">Qualification</font><button class="btn btn-primary"><a href="#myModal4" data-toggle="modal">Edit</a></button><hr>
+                          </div>
+                         <div class="col-md-1">
+                          <div class="vl"></div></div>
+                          <div class="col-md-3">
+                            <center><i class='fas fa-phone' style='font-size:18px'></i></center>
+                            <center><h3>Info</h3></center><br>
+                             <center><label>Mobile Number</label><br>
+                             <i class='fas fa-mobile' style='font-size:18px'></i> 9994428989</center><br>
+                             <center><label>Date of Birth</label><br>
+                             <i class='fas fa-calendar' style='font-size:18px'></i> 02-01-1995</center>
+                          </div>
+                         </div>
+                         <div class="panel-footer">
+                          
+                        </div>
+                        
+                     </div>
+                 </div>
+</div>
+</div>
+</div>
+
+<div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Your Feedback</h4>
+                </div>
+                <div class="modal-body">
+                  
+                        <div class="form-group">
+                            <label for="inputName">Edit Company name</label>
+                            <input type="text" class="form-control" id="edit1">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="inputComment">Description</label>
+                            <textarea class="form-control" id="inputComment" rows="4"></textarea>
+                        </div> -->
+                    
+                </div>
+                <form action="fb.html" method="post">
+                <div class="modal-footer">
+                    
+                   <a href="fb.html"><button type="button" class="btn btn-primary" onclick="myFunction();">Save changes</button></a>
+                    
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    
+                </div>
+               </form>
+            </div>
+        </div>
+    </div>
+    <div id="myModal1" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Your Feedback</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Edit a work place</label>
+                            <input type="text" class="form-control" id="edit2">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="inputComment">Description</label>
+                            <textarea class="form-control" id="inputComment" rows="4"></textarea>
+                        </div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="fb.html"><button type="button" class="btn btn-primary" onclick="myFunction2();">Save changes</button></a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal2" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Your Feedback</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Edit Current city</label>
+                            <input type="text" class="form-control" id="edit3">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="inputComment">Description</label>
+                            <textarea class="form-control" id="inputComment" rows="4"></textarea>
+                        </div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="fb.html"><button type="button" class="btn btn-primary" onclick="myFunction3();">Save changes</button></a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal3" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Your Feedback</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Edit Home town</label>
+                            <input type="text" class="form-control" id="edit4">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="inputComment">Description</label>
+                            <textarea class="form-control" id="inputComment" rows="4"></textarea>
+                        </div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="fb.html"><button type="button" class="btn btn-primary" onclick="myFunction4();">Save changes</button></a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal4" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Your Feedback</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Edit qualification</label>
+                            <input type="text" class="form-control" id="edit5">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="inputComment">Description</label>
+                            <textarea class="form-control" id="inputComment" rows="4"></textarea>
+                        </div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="fb.html"><button type="button" class="btn btn-primary" onclick="myFunction5();">Save changes</button></a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <script type="text/javascript">
+$(document).ready(function(){
+    $("#myModal").on('shown.bs.modal', function(){
+        $(this).find('input[type="text"]').focus();
+    });
+});
+</script> -->
+
+<!--section end-->
+<!--foter start-->
+
+<!--footer end-->
+<script>
+  
+
+  function myFunction(){
+    var a=document.getElementById("edit1").value;
+    localStorage.setItem("x",a);
+  }
+  function myFunction2(){
+    var b=document.getElementById("edit2").value;
+    localStorage.setItem("y",b);
+  }
+  function myFunction3(){
+    var c=document.getElementById("edit3").value;
+    localStorage.setItem("xy",c);
+  }
+  function myFunction4(){
+    var d=document.getElementById("edit4").value;
+    localStorage.setItem("yz",d);
+  }
+  function myFunction5(){
+    var e=document.getElementById("edit5").value;
+    localStorage.setItem("zx",e);
+  }
+  </script>
+</body>
+</html>
